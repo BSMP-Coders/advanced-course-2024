@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Classification with Azure Custom Vision</title>
+</head>
+<body>
+    <h1>Image Classification with Azure Custom Vision</h1>
+    <form method="POST">
+        <label for="image_url">Image URL:</label><br>
+        <input type="text" id="image_url" name="image_url" value="{{ image_url }}"><br><br>
+        <label for="project_id">Project ID:</label><br>
+        <input type="text" id="project_id" name="project_id" value="{{ project_id }}"><br><br>
+        <label for="model_name">Model Name:</label><br>
+        <input type="text" id="model_name" name="model_name" value="{{ model_name }}"><br><br>
+        <button type="submit">Classify Image</button>
+    </form>
+    {% if image_url %}
+    <h2>Input Image</h2>
+    <img src="{{ image_url }}" alt="Input Image" width="300px">
+    {% endif %}
+    {% if predictions_data %}
+    <h2>Predictions</h2>
+    <table border="1">
+        <tr>
+            <th>Tag</th>
+            <th>Probability (%)</th>
+        </tr>
+        {% for prediction in predictions_data %}
+        <tr>
+            <td>{{ prediction['Tag'] }}</td>
+            <td>{{ prediction['Probability (%)'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+</body>
+</html>
