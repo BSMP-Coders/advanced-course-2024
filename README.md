@@ -1,6 +1,10 @@
 # BSMP24 Advanced Coding Program 2024 🌐🚀
    
-Welcome to the BSMP24 Advanced Coding Program! This course is designed to take you through the fundamentals of coding with Python, web development with Flask and Streamlit, and the basics of using GitHub and Visual Studio Code. Below is a summary of our lesson plans:  
+Welcome to the BSMP24 Advanced Coding Program! This course is designed to take you through the fundamentals of coding with Python, web development with Flask and Streamlit, and the basics of using GitHub and Visual Studio Code. 
+
+Refer to the [**BSMP24 Advanced Coding Program**](https://bsmp-coders.github.io/) for more information.
+
+Below is a summary of our lesson plans:  
 
 1. Lesson 1 - [**Intro to GitHub, VS Code, and Streamlit**](/lesson1/README.md) - Introduce students to GitHub, VS Code, and creating a simple app with Python and Streamlit.
 2. Lesson 2 - [**Python Fundamentals with Streamlit**](/lesson2/README.md) - Cover fundamental Python concepts such as `if` statements and loops, integrating them with Streamlit to create engaging web apps.
@@ -10,3 +14,11 @@ Welcome to the BSMP24 Advanced Coding Program! This course is designed to take y
 5. Lesson 5 - [**Flask and Azure OpenAI Integration**](/lesson5/README.md) - Build an autocomplete web app using Flask and Azure OpenAI.
 6. Lesson 6 - [**Computer Vision**](/lesson6/README.md) - Introduce computer vision concepts and applications using Python.
 7. Lesson 7 - [**Advanced ChatGPT / Generative AI Tools in Web Apps**](/lesson7/README.md) - Explore advanced AI tools and their applications, such as ChatGPT-4 and DALL-E, in web apps.
+
+
+## Quick Start in CodeSpaces 🚀
+
+1. **Clone the Repository**: Click on the green "Code" button and copy the URL.
+2. **Open GitHub Codespaces**: Go to your GitHub profile, click on "CodeSpaces" and select "New Codespace".
+
+
